@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Clint Ecker</string>
+	<key>CFBundleDisplayName</key>
+	<string>Short URL</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.clintecker.safari.shorturl</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.2</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.2</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>shortenize.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>shorten url</string>
+				<key>Identifier</key>
+				<string>shorturl</string>
+				<key>Image</key>
+				<string>hash.png</string>
+				<key>Label</key>
+				<string>Short URL</string>
+				<key>Palette Label</key>
+				<string>Short URL</string>
+				<key>Tool Tip</key>
+				<string>Get short URL</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>shortenize.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Gets the short url for the current page</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://clintecker.com/safari/extensions/shorturl/update.plist</string>
+	<key>Website</key>
+	<string>http://clintecker.com/safari/extensions/shorturl</string>
+</dict>
+</plist>
